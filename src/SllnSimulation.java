@@ -5,19 +5,19 @@ package teamwork5;
 	import java.io.FileWriter;
 	import java.io.IOException;
 
-	public class SllnSimulation { // Sınıf ismini SllnSimulation yaptık
+	public class SllnSimulation {
 	    public static void main(String[] args) {
 	        int n = 10000; 
 	        double cumulativeSum = 0;
 	        Random random = new Random();
 	        
-	        // GitHub yapısına uygun klasör kontrolü
+	        
 	        File directory = new File("results");
 	        if (!directory.exists()) {
 	            directory.mkdir();
 	        }
 
-	        // Dosya yolu: results/slln_data.csv
+	        // file: results/slln_data.csv
 	        try (FileWriter writer = new FileWriter("results/slln_data.csv")) {
 	            writer.write("n,cumulative_mean,theoretical_mean\n");
 
@@ -26,7 +26,7 @@ package teamwork5;
 	                cumulativeSum += x;
 	                double cumulativeMean = cumulativeSum / i;
 
-	                // Veriyi ve hedef olan 0.5 değerini yazıyoruz
+	                
 	                writer.write(i + "," + cumulativeMean + ",0.5\n");
 	            }
 	            System.out.println("Başarılı! Veriler 'results/slln_data.csv' konumuna kaydedildi.");
