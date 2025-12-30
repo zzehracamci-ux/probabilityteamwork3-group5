@@ -1,6 +1,6 @@
 # probabilityteamwork3-group5
 Project Title and Description
-This project aims to experimentally verify the Strong Law of Large Numbers (SLLN) and the Central Limit Theorem (CLT) using computer simulations3. It also includes a practical application of SLLN through Monte Carlo $\pi$ Estimation. The project demonstrates how random variables behave at scale and how they converge to theoretical values.
+This project aims to experimentally verify the Strong Law of Large Numbers (SLLN) and the Central Limit Theorem (CLT) using computer simulations. It also includes a practical application of SLLN through Monte Carlo $\pi$ Estimation. The project demonstrates how random variables behave at scale and how they converge to theoretical values.
 
 Team Members 
 ZEHRA CAMCI - 2311021023
@@ -8,7 +8,8 @@ FATMAGUL ARATCELFE - 2311021045
 ILAYDA GUNER - 2211021042
 YAGMUR SENER - 2311021013
 
-InstallationTo run this project, you need to have the Java Development Kit (JDK) installed on your system (Version 17 or higher is recommended).
+Installation
+To run this project, you need to have the Java Development Kit (JDK) installed on your system (Version 17 or higher is recommended).
 
 Clone the repository:
 Bash
@@ -42,4 +43,5 @@ src/: Contains the Java source code files for all simulations (SLLN, CLT, and Mo
 results/figures/: Stores all generated plots, including histograms, Q-Q plots, and convergence graphs in PNG/PDF format.
 reports/: Contains the technical reports documenting the findings and observations of the project.
 data/: (Optional) Directory for any generated datasets or raw simulation outputs.
+
 README.md: Provides project description, team information, and instructions.
