@@ -1,12 +1,12 @@
 
-	package teamwork3first;
+	package teamwork3;
 
 	import java.io.File;
 	import java.io.FileWriter;
 	import java.io.IOException;
 	import java.util.Random;
 
-	public class work1 {
+	public class CLT {
 
 	    public static void main1(String[] args) {
 
