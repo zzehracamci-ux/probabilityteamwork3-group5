@@ -1,0 +1,9 @@
+*.class
+*.jar
+*.war
+bin/
+build/
+.settings/
+.project
+.classpath
+.DS_Store
