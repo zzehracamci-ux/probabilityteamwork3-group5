@@ -12,7 +12,7 @@
 	 * Demonstrates how the sum of independent variables follows a 
 	 * Normal Distribution regardless of the original distribution. [cite: 23, 27]
 	 */
-	public class work1 {
+	public class CLT {
 
 	    public static void main(String[] args) {
 	        // Array of different sample sizes to show convergence rate [cite: 37, 41]
