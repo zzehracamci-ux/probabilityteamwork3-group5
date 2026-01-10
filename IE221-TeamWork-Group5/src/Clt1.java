@@ -18,7 +18,7 @@
 	        // Array of different sample sizes to show convergence rate [cite: 37, 41]
 	        int[] nValues = {2, 5, 10, 30, 50}; 
 	        // m: Number of times we repeat the experiment for each n [cite: 33, 37]
-	        int replications = 1000; 
+	        int replications = 10000; 
 	        
 	        // Parameters for Uniform(0,1) distribution [cite: 24]
 	        double mu = 0.5; 
